@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "938897ae-d070-4192-8602-9917eecd1ca8",
+		"name": "KMA_L2_v1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32695562"
+	},
+	"item": [
+		{
+			"name": "http://13.53.207.70:8000/content/api/v1/integration/generate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\":\"51U3xcg?1Dfn1BFuQoAfgN6CZ59AsEOwz!qusRiUA4uOEd6/tr=J2RGe93rYpSyz\",\r\n    \"requester_name\": \"Kateryna Nych\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-01-11\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://13.53.207.70:8000/content/api/v1/integration/generate"
+			},
+			"response": [
+				{
+					"name": "http://13.53.207.70:8000/content/api/v1/integration/generate",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\":\"51U3xcg?1Dfn1BFuQoAfgN6CZ59AsEOwz!qusRiUA4uOEd6/tr=J2RGe93rYpSyz\",\r\n    \"requester_name\": \"Kateryna Nych\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-01-11\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://13.53.207.70:8000/content/api/v1/integration/generate"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://13.53.207.70:8000/content/api/v1/integration/generate",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\":\"51U3xcg?1Dfn1BFuQoAfgN6CZ59AsEOwz!qusRiUA4uOEd6/tr=J2RGe93rYpSyz\",\r\n    \"requester_name\": \"Kateryna Nych\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-01-11\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://13.53.207.70:8000/content/api/v1/integration/generate"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://13.53.207.70:8000/content/api/v1/integration/generate",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\":\"51U3xcg?1Dfn1BFuQoAfgN6CZ59AsEOwz!qusRiUA4uOEd6/tr=J2RGe93rYpSyz\",\r\n    \"requester_name\": \"Kateryna Nych\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-01-11\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://13.53.207.70:8000/content/api/v1/integration/generate"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "http://13.53.207.70:8000/content/api/v1/integration/generate",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\":\"51U3xcg?1Dfn1BFuQoAfgN6CZ59AsEOwz!qusRiUA4uOEd6/tr=J2RGe93rYpSyz\",\r\n    \"requester_name\": \"Kateryna Nych\",\r\n    \"location\": \"Kyiv,Ukraine\",\r\n    \"date\": \"2024-01-11\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://13.53.207.70:8000/content/api/v1/integration/generate"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
