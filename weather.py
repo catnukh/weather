@@ -91,7 +91,7 @@ def weather_endpoint():
             snow_message = " Jingle Bells!"
         else:
             snow_message = ""
-            
+
     result = {
         "requester_name": requester_name, 
         "timestamp": start_dt.isoformat(),
@@ -108,6 +108,3 @@ def weather_endpoint():
             }
 
     return result
-
-if __name__ == "__main__":
-    app.run(debug=True)
