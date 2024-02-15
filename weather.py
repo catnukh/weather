@@ -80,17 +80,18 @@ def weather_endpoint():
     elif temp_c > 13 and temp_c <= 18:
         temp_message = " Just wear your denim jacket"
     elif temp_c > 18 and temp_c < 27:
-        temp_message = " Comfort weather. Put on your Y-shirt"
+        temp_message = " Comfort weather. Put on your T-shirt"
     else:
         temp_message = ""
 
     snow = resp_dict['days'][0]['snow']
-    snow_mesagge = ""
-    if snow > 0:
-        snow_message = " Jingle Bells!"
-    else:
-        snow_message = ""
-
+    snow_message = ""
+    if type(snow) == "float":
+        if snow > 0 and snow is not None:
+            snow_message = " Jingle Bells!"
+        else:
+            snow_message = ""
+            
     result = {
         "requester_name": requester_name, 
         "timestamp": start_dt.isoformat(),
